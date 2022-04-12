@@ -25,10 +25,6 @@ a{
     margin: 0 auto;
 }
 
-.header{
-    margin-bottom: 84px;    
-}
-
 .header-wraper{
     background-image: url(../img/main-bg.jpg);
     background-repeat: no-repeat;
@@ -131,19 +127,27 @@ a{
     color: #FCFBFB;
 }
 
-.subtilte{
+.subtitle{
     font-size: 30px;
     font-weight: 700;
     color: #000;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.advantages{
+    background-image: url(../img/advantages-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .advantages-title{
     margin-bottom: 80px;
 }
 
-.subtilte span{
+.subtitle span{
     color: #E9920F;
 }
 
@@ -156,4 +160,88 @@ a{
 
 .card-icon{
     text-align: center;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 51px;
+}
+
+.step:nth-child(2) {
+    margin-left: 125px;
+}
+
+.step:nth-child(3) {
+    margin-left: 265px;
+}
+
+.step:nth-child(4) {
+    margin-left: 405px;
+    margin-bottom: 71px;
+}
+
+.count{
+    font-size: 80px;
+    font-weight: 900;
+    color: #E9920F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.count-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #252525;
+}
+
+.count-list{
+    font-size: 15px;
+    font-weight: 400;
+    color: #252525;    
+}
+
+.count-list-item a{
+    color: #252525;  
+}
+
+.order{
+    background-image: url(../img/order-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.order-wrap{
+    padding-bottom: 60px;
+}
+
+.order-button{
+    background-color: #E9920F;
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 1px solid #E9920F;
+    z-index: 5;
+    cursor: pointer;
+    outline: none;
+    max-width: 45px;
+    max-height: 37px;
+}
+
+.slick-prev {
+    left: 38px;
+}
+
+.slick-next {
+    right: 38px;
 }
